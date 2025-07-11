@@ -1,0 +1,57 @@
+h1{
+ position: absolute;
+ top: 0;
+ left: 1em;
+ font-size: 300px;
+ color: rgb(17, 16, 19);
+ text-align: center;
+ font-family:'Times New Roman';
+ font-variant:small-caps;
+}
+
+.banner{
+    top: -25px;
+    display: inline-block;
+    position:relative;
+    width: 25%;
+
+}
+.banner2{
+ position: absolute;
+ top: 450px;
+ right: 52%;
+ width: 80px;
+ margin: 300px;
+ filter: grayscale(100%);
+
+}
+
+.banner3{
+ position: absolute;
+ top: 450px;
+ left: 77%;
+ width: 80px;
+ margin: 300px;
+ filter: grayscale(100%);
+
+}
+.banner4{
+    top: 0px;
+    width: 35%;
+    position: relative;
+    left: 300px;
+    z-index: -1;
+}
+
+
+
+h1:hover{
+    animation: changeColor 1.5s infinite;
+}
+
+@keyframes changeColor {
+    0% { color: red; }
+    50% { color: rgb(169, 42, 186); }
+    100% { color: rgb(16, 160, 23); }
+}
+
