@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+
+*{
+    /* normalização */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #BA2CC7;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 413px;
+
+    width: 100%;
+    height: 160px;
+
+    background-color: rgba(255, 0, 179, 0.2);
+    border: 10px solid;
+}
+
+header img {
+    width: 175px;
+    height: 110px;
+    object-fit: cover;
+
+
+    border: 10px solid;
+    border-radius: 25px;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+
+    border: 10px solid;
+    border-radius: 50px;
+
+    text-align: center;
+    font-family: "Ingrid Darling", cursive;
+    font-size: 50px;
+
+    width: 241px;
+    height: 77px;
+
+    margin-right: 145px;
+    background-color: #FF5CCE;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1950px;
+    height: 700px;
+    background-color: #FF5CCE;
+
+    border: 10px solid;
+    border-radius: 50px;
+
+    
+}
+
+.brino_1 , .brino_3{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width:  250px;
+    height: 549px;
+
+    background-color:#BA2CC7;
+
+    border: 10px solid;
+    border-radius: 50px;
+
+}
+.brino_1 img , .brino_3 img{
+    width: 138px;
+    height: 137px;
+    object-fit: cover;
+}
+
+
+.brino_2{
+
+    width:  950px;
+    height: 502px;
+
+    background-color:#BA2CC7;
+    border: 10px solid;
+    border-radius: 268px;
+
+    
+}
+
+.brino_2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 268px;
+
+}
+
